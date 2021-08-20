@@ -25,7 +25,7 @@ const TourDetail = () => {
     }, [id])
     return (
         <Paper elevation={3} className={classes.paper}>
-            <Typography variant='h2' style={{ textAlign: 'center' }}>ТУР</Typography>
+            <Typography variant='h2' style={{ textAlign: 'center' }}>TOUR</Typography>
             {
                 detail ? (
                     <div style={{ display: 'flex', justifyContent: 'space-between' }}>
@@ -42,7 +42,7 @@ const TourDetail = () => {
                             <Typography variant='h3' gutterBottom>{detail.title}</Typography>
                             <Typography variant='subtitle1' gutterBottom>{detail.type}</Typography>
                             <Typography variant='body1' gutterBottom>{detail.description}</Typography>
-                            <Typography variant='h4' gutterBottom>{detail.price} сом</Typography>
+                            <Typography variant='h4' gutterBottom>{detail.price} som </Typography>
 
 
                         </div>
@@ -52,7 +52,7 @@ const TourDetail = () => {
             }
             <Link to='/list'>
                 <IconButton>
-                    Назад
+                    Back
                 </IconButton>
 
             </Link>

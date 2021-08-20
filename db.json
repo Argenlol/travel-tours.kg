@@ -1,76 +1,132 @@
 {
   "tours": [
     {
-      "title": "природный парк Ала-Арча ",
-      "image": "https://sputnik.kg/images/102749/82/1027498253.jpg",
-      "type": "Легкий уровень",
+      "title": "Natural Park Ala-Archa ",
+      "image": "https://s.pfst.net/2018.05/6102126675676c64cbc3040a05dd4fadebc558f29d48_b.jpg",
+      "type": "Easy Level",
       "price": "800",
-      "description": "Находится в 40 километрах от Бишкека. Одна из самых известных природных зон в стране. С кыргызского языка \"ала-арча\" переводится как \"пестрый можжевельник\" — это растение используется местным населением для защиты жилья от злых духов.",
+      "description": "It is located 40 kilometers from Bishkek. One of the most famous natural areas in the country. From the Kyrgyz language, ala-archa  is translated as  variegated juniper  - this plant is used by the local population to protect their homes from evil spirits.",
       "id": 4
     },
     {
-      "title": "Озеро Кол Тор",
-      "image": "https://triptokyrgyzstan.com/sites/default/files/images/2019-03/152405495827783.jpg",
-      "type": "Средний уровень",
+      "title": "Lake Kol-Tor",
+      "image": "https://www.baibol.kg/img/attraction_gallery/152413726452644.jpg",
+      "type": "Middle Level",
       "price": "600",
-      "description": "Озеро Коль-Тор, которое по праву считается одним из красивейших горных озер Северного Тянь-Шаня, находится в одноименном ущелье, граничащим с ущельем Кегеты, на высоте около 2700 м. Вид озера просто сказочный: водная гладь бирюзового цвета, а вокруг величественный горный ландшафт.  На западном берегу озера Коль-Тор находятся еловые леса, восточный берег занят высокими травами. У озера расположена необычная горная вершина высотой более 4200 м, под названием “Сахарная голова”.",
+      "description": "Lake Kol-Tor, which is rightfully considered one of the most beautiful mountain lakes of the Northern Tien Shan, is located in the gorge of the same name, bordering the Kegety gorge, at an altitude of about 2700 m. ... On the western shore of Lake Kol-Tor there are spruce forests, the eastern shore is occupied by tall grasses. Near the lake there is an unusual mountain peak with a height of more than 4200 m, called “Sugarloaf”.",
       "id": 6
     },
     {
-      "title": "Суусамырская долина",
+      "title": "Suusamyr Valley",
       "image": "https://triptokyrgyzstan.com/sites/default/files/media/image/suusamyr_valley_c_sergey_kalachov_1.jpg",
-      "type": "Средний уровень",
+      "type": "Middle Level",
       "price": "1000",
-      "description": "Природное сокровище Внутреннего Тянь-Шаня, долина находящаяся между хребтами Кыргызский и Таласский Ала-Тоо, носит название Суусамыр. Долина расположена на высоте 2000-3200 м и имеет протяженность 155 км.  Зимой здесь лежат глубокие сугробы снега, а летом почти вся территория долины, подобно альпийскому лугу, покрыта ковром из высокой зеленой травы. Поэтому неслучайно Суусамырская долина знаменита своими пастбищами, одними из лучших во всей стране. Долина привлекает множество туристов, желающих провести время на свежем горном воздухе, альпинистов и любителей горных лыж.",
+      "description": "The natural treasure of the Inner Tien Shan, the valley located between the Kyrgyz and Talas Ala-Too ranges, is called Suusamyr. The valley is located at an altitude of 2000-3200 m and has a length of 155 km. In winter, there are deep snowdrifts, and in summer almost the entire territory of the valley, like an alpine meadow, is covered with a carpet of tall green grass. Therefore, it is no coincidence that the Suusamyr valley is famous for its pastures, one of the best in the whole country. The valley attracts many tourists who want to spend time in the fresh mountain air, climbers and ski lovers.",
       "id": 8
     },
     {
-      "title": "Озеро Кёл-Когур",
+      "title": "Lake Kol-Kogur",
       "image": "https://triptokyrgyzstan.com/sites/default/files/media/image/c_elena_gromova.jpg",
-      "type": "Средний уровень",
+      "type": "Middle Level",
       "price": "1100",
-      "description": "Озеро Кёль-Когур находится в Кеминском районе Чуйской области, среди живописных гор Кюнгей Ала-Тоо. Добраться до озера возможно только пешком или на лошадях, это дает  возможность любителям конных и пеших прогулок насладиться удивительными ландшафтами этого района.  Кёль-Когур расположено на высоте 2000 метров над уровнем моря. Ландшафты вокруг озера девственны и невероятно красивы, здесь есть густые хвойные леса, где обитают разные дикие животные, такие как маралы, туркестанская рысь, беркуты и другие.",
+      "description": "Lake Kel-Kogur is located in the Kemin district of the Chui region, among the picturesque mountains of Kyungei Ala-Too. It is possible to get to the lake only on foot or by horse, this gives the opportunity to lovers of horseback riding and hiking to enjoy the amazing landscapes of this area. Kol-Kogur is located at an altitude of 2000 meters above sea level. The landscapes around the lake are virgin and incredibly beautiful, there are dense coniferous forests, where various wild animals live, such as marals, Turkestan lynx, golden eagles and others.",
       "id": 9
     },
     {
-      "title": "Перевал Тоо-Ашуу",
+      "title": "Too-Ashuu Pass",
       "image": "https://triptokyrgyzstan.com/sites/default/files/media/image/c_victor_blagin.jpg",
-      "type": "Легкий уровень",
+      "type": "Easy Level",
       "price": "800",
-      "description": "Перевал Тоо-Ашуу - это величественное место, находящееся в 135 км от города Бишкек, по автодороге, соединяющей северную и южную столицы страны. Высота перевала 3400 м. Дорога в этом месте по-настоящему захватывает дух, а взору путника открываются неописуемые горные пейзажи.   Здесь дует сильнейший ветер, а горы покрыты ледяными шапками круглый год. Зато воздух на перевале неповторимо свеж и чист, и каждый человек, вдыхая его, понимает, что такого воздуха он нигде не встречал. На южном склоне Тоо-Ашуу расположена горнолыжная база, популярная среди лыжников и сноубордистов в зимнее время. За перевалом начинается Суусамырская долина.",
+      "description": "The Too-Ashuu pass is a majestic place located 135 km from the city of Bishkek, along the road connecting the northern and southern capitals of the country. The height of the pass is 3400 m. The road in this place is truly breathtaking, and indescribable mountain landscapes open up to the traveler's eyes. The strongest wind blows here, and the mountains are covered with ice caps all year round. But the air on the pass is uniquely fresh and clean, and each person, inhaling it, understands that he has never met such air anywhere. On the southern slope of Too-Ashuu there is a ski resort, popular among skiers and snowboarders in winter. The Suusamyr valley begins behind the pass.",
       "id": 10
     },
     {
-      "title": "Ущелье Чункурчак",
+      "title": "Chunkurchak Gorge",
       "image": "https://triptokyrgyzstan.com/sites/default/files/media/image/c_anna_vasilenko.jpg",
-      "type": "Легкий уровень",
+      "type": "Easy Level",
       "price": "800",
-      "description": "Небольшое ущелье Чункурчак расположено у истока реки Аламедин, в 45 км от города Бишкек. На территории ущелья образован национальный биосферный заповедник, призванный спасти от исчезновения редкие виды тюльпанов. Ведь именно здесь растет величественный и прекрасный Королевский Тюльпан, достигающий 17 см в высоту! В ущелье находится знаменитый сорокаметровый Голубиный водопад, где вода стекает вниз по ступеням из острых скал.  Наличие скалистых гор высотой 100-200 м в ущелье Чонкурчак делает его привлекательным для любителей альпинизма и скалолазания, поэтому нередко в нем проводятся соревнования по этим видам спорта.",
+      "description": "The small Chunkurchak gorge is located at the source of the Alamedin River, 45 km from the city of Bishkek. On the territory of the gorge, a national biosphere reserve was formed, designed to save rare species of tulips from extinction. After all, it is here that the majestic and beautiful Royal Tulip grows, reaching 17 cm in height! In the gorge, there is the famous forty-meter Pigeon Falls, where water flows down the steps from the sharp rocks. The presence of rocky mountains with a height of 100-200 m in the Chonkurchak gorge makes it attractive for fans of mountaineering and rock climbing, therefore, competitions in these sports are often held here.",
       "id": 11
     },
     {
-      "title": "Внедорожный тур через озеро Сары-Челек",
+      "title": "Sary-Chelek Lake",
       "image": "https://triptokyrgyzstan.com/sites/default/files/media/image/c_spaak.jpg",
-      "type": "Тяжелый уровень",
+      "type": "Easy Level",
       "price": "3000",
-      "description": "All-Tours приглашает Вас принять участие в приключении внедорожного путешествия в Сакральную долину: Озеро Сары-Челек, Арсланбоб, Джалал-Абад, после на Землю кочевников: Озеро Сон-Куль, Таш-Рабат, Кичи-Нарын, а затем посетить Жемчужину Тянь-Шаня: озеро Иссык-Куль, Каракол и Чолпон-Ата. Эта поездка покажет вам нетронутую природу Кыргызстана, спрятанную глубоко в горах, и мы откроем для себя обычаи кочевников, которых встретим на пути в высокогорье.",
+      "description": "All-Tours invites you to take part in the adventure of off-road travel to the Sacral Valley: Lake Sary-Chelek, Arslanbob, Jalal-Abad, after to the Land of nomads: Lake Son-Kul, Tash-Rabat, Kichi-Naryn, and then visit the Pearl of Tien- Shan: Lake Issyk-Kul, Karakol and Cholpon-Ata. This trip will show you the untouched nature of Kyrgyzstan, hidden deep in the mountains, and we will discover the customs of the nomads we meet on the way to the highlands.",
       "id": 12
     },
     {
-      "title": "Кочевой Кыргызстан",
+      "title": "Nomadic Kyrgyzstan",
       "image": "https://triptokyrgyzstan.com/sites/default/files/media/image/img_0231.jpg",
-      "type": "Тяжелый уровень",
+      "type": "Easy Level",
       "price": "3000",
-      "description": "Во время своей поездки вы посетите одни из самых незабываемых мест Кыргызстана! У наших гостей будет возможность встретиться с кочевниками и расспросить их обо всем на свете! У вас даже будет возможность провести ночь в юрте - кочевом доме, изготовленном из деревянного каркаса с войлочным покрытием. Это прекрасная возможность погрузиться в кочевую культуру! Подобный опыт и воспоминания останутся с вами навсегда... Это незабываемое приключение по земле кочевников!",
+      "description": "During your trip, you will visit some of the most unforgettable places in Kyrgyzstan! Our guests will have the opportunity to meet nomads and ask them about everything in the world! You will even have the opportunity to spend the night in a yurt, a nomadic house made from a timber frame with a felt covering. This is a great opportunity to immerse yourself in nomadic culture! Such experiences and memories will stay with you forever ... This is an unforgettable adventure in the land of nomads!",
       "id": 13
     },
     {
-      "title": "Зимняя сказка Иссык-Куля",
-      "image": "https://triptokyrgyzstan.com/sites/default/files/media/image/75783.jpg",
-      "type": "Тяжелый уровень",
+      "title": "Issyk-Kul Winter Fairy Tale",
+      "image": "https://rosskurort.com/upload/iblock/7a8/ozero.jpg",
+      "type": "Easy Level",
       "price": "7000",
-      "description": "Приглашаем вас в удивительное путешествие вокруг жемчужины Кыргызстана - озера Иссык-Куль.  Вы не останетесь равнодушными и зарядитесь позитивной энергией, отдохнете от городской суеты и подышите чистым воздухом на природе, а также сделаете множество фотографий на фоне небесных гор Тескей Ала-Тоо.  Мягкий климат озера и потрясающие снежные ландшафты сделают это путешествие комфортным и незабываемым.  Приглашаем любителей фотографий, активного отдыха и просто неравнодушных людей, стремящихся открыть кругозор и познать этот удивительный и красивый мир, отправится с нами в Зимнюю Сказку Иссык-Куля! ",
+      "description": "We invite you on an amazing journey around the pearl of Kyrgyzstan - Lake Issyk-Kul. You will not remain indifferent and recharge with positive energy, take a break from the bustle of the city and breathe in the clean air in nature, as well as take many photos against the backdrop of the Teskey Ala-Too celestial mountains. The lake's mild climate and stunning snowy landscapes will make this trip comfortable and unforgettable. We invite lovers of photography, outdoor activities and just caring people who want to open their horizons and learn about this amazing and beautiful world, go with us to the Winter Fairy Tale of Issyk-Kul !",
       "id": 14
+    },
+    {
+      "title": "Kel-Suu",
+      "image": "https://triptokyrgyzstan.com/sites/default/files/media/image/c_vasiliy_ganzha_2.jpg",
+      "type": "Easy Level",
+      "price": "5000",
+      "description": "Kel-Suu is a high-mountainous lake of glacial origin, located in the southeastern part of the Naryn region, near the Kyrgyz-Chinese border, at an altitude of 3500 meters. The lake is remarkable for its stunning views - the water in it is bright blue and contrasts very beautifully with the surrounding rocks. This is one of the most beautiful and at the same time inaccessible places in Kyrgyzstan. Kel-Suu is a dammed lake formed in a large crevice between rocks. Most of it is not visible from the shore, and therefore to see the whole lake, you need to sail on it in a boat. The lake is 9 kilometers long and its width varies from 500 meters to 2 kilometers at its widest point.",
+      "id": 15
+    },
+    {
+      "title": "Canyon Fairy Tale",
+      "image": "https://img.itinari.com/pages/images/original/ead534b7-8015-4bef-a61c-4b9d1becb242-istock-1059719798.jpg?ch=DPR&dpr=1&w=1200&h=800&s=ea271b622093dbe352f28a70f38144f8",
+      "type": "Easy Level",
+      "price": "1500",
+      "description": "Skazka Canyon is a small gorge on the southern shore of Issyk-Kul, famous for its red clay rocks. The canyon is located about 120 kilometers from Balykchi, near the village of Tosor.'Fairy Tale' is a very popular place among tourists. The reason for this is the easy accessibility of the canyon and its stunning landscapes and contrasts. Soil erosion, which has been going on for thousands of years, has done its job: a variety of bizarre figures of stone and clay rise in the canyon. The Skazka Canyon is composed of multi-colored clays, minerals and rocks, which adds to the picturesque nature of this place.",
+      "id": 16
+    },
+    {
+      "title": "Kok Moinok",
+      "image": "https://asiamountains.net/assets/lib/2019/10/14/kok_moinok_3.jpg",
+      "type": "Middle Level",
+      "price": "600",
+      "description": "On the territory of Tuyuk-Issykatinsky forestry there is a picturesque gorge called Kok-Moinok. The Kok-Moinok gorge is located 75 kilometers away from the city of Bishkek. Here you will see a small waterfall and a beautiful mountain lake. The path starts from small houses, 1600 meters above sea level. The first step is to cross the river. Once there was a bridge, but it was blown away by a mudflow. Today you can cross the river by an old fallen tree.",
+      "id": 17
+    },
+    {
+      "title": "Lenin's Peak",
+      "image": "https://www.centralasia-travel.com/upload/text/lenin-day-12.jpg",
+      "type": "Hard Level",
+      "price": "2000",
+      "description": "Lenin Peak (7134 m) is one of the most famous seven-thousanders in the Pamirs. The slopes of the massif are covered with powerful glaciers, in some places cut by deep cracks. The classic route to the summit does not have steep rocky or ice sections, in some sections the steepness of the slopes is up to 45-55 degrees, avalanches and ice falls are frequent. Despite the fact that the classic route is technically simple, the ascent to Lenin Peak belongs to the class of high-altitude mountaineering and requires from the climbers good physical and mental health, appropriate equipment and a sound approach to acclimatization. Experience in climbing peaks with a height of at least 5000 m above sea level is required.",
+      "id": 18
+    },
+    {
+      "title": "Victory Peak",
+      "image": "https://www.centralasia-travel.com/upload/tiles/khan-pobeda-lenin-708.jpg",
+      "type": "Hard Level",
+      "price": "4500",
+      "description": "Pobeda Peak (7439 m) is the northernmost seven-thousander peak in the world, the highest point of the Tien Shan and Kyrgyzstan. Pobeda Peak is one of the five seven-thousanders of the CIS, successful expeditions to which give the right to receive the honorary title 'Snow Leopard'. Many peaks adjacent to Pobeda Peak still remain unconquered and await their pioneers. The base camp of Pobeda Peak (4000 m) is located on the South Inylchek glacier in the very heart of the Northern Tien Shan. Its convenient location allows you to enjoy amazing panoramas of Khan-Tengri Peak and Pobeda Peak.",
+      "id": 19
+    },
+    {
+      "title": "Peak Boxing",
+      "image": "https://mapio.net/images-p/121749685.jpg",
+      "type": "Hard Level",
+      "price": "3200",
+      "description": "Ala-Archa (or Ak-Sai) is a mountaineering region in the Kyrgyz ridge, not far from Bishkek. The Ala-Archa river has several tributaries that flow from glacial circuses, but usually under Ala-Archa I mean the ridges surrounding one of them - Ak-Sai, where the highest, most complex and beautiful peaks are located. In the neighboring gorges there are also classified climbing routes, but they are visited much less often. Among them, one can note the Adygene valley (left tributary of the Ala-Archi), where there are about a dozen peaks with routes up to 3 grade. - a good area for beginners, but certainly not as beautiful as Ak-Sai.",
+      "id": 20
+    },
+    {
+      "title": "цпцп",
+      "image": "https://lh6.googleusercontent.com/proxy/5YUVHiA1x4KXBMvcnQ_fNcsGFQig9vpKgEbH98vc3mIx6963Jawv4WtVMemvIEdCHGpo60iD8t0OfwnHu5wY5InXTyqTPZx4a77T7iIFnHti=w3840-h2160-p-k-no-nd-mv",
+      "type": "цупцуп",
+      "price": "453452",
+      "description": "2врукрфцк",
+      "id": 21
     }
   ]
 }

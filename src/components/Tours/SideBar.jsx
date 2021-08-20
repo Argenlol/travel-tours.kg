@@ -83,17 +83,17 @@ const SideBar = () => {
                 >
                     <FormControl component="fieldset"
                     >
-                        <FormLabel component="legend">Уровень сложности</FormLabel>
+                        <FormLabel component="legend">Difficulty level</FormLabel>
                         <RadioGroup aria-label="gender" name="gender1" value={type} onChange={handleChangeType}>
-                            <FormControlLabel value="Легкий уровень" control={<Radio />} label="Легкий уровень" />
-                            <FormControlLabel value="Средний уровень" control={<Radio />} label="Средний уровень" />
-                            <FormControlLabel value="Тяжелый уровень" control={<Radio />} label="Тяжелый уровень" />
+                            <FormControlLabel value="Easy Level" control={<Radio />} label="Easy Level" />
+                            <FormControlLabel value="Middle Level" control={<Radio />} label="Middle Level" />
+                            <FormControlLabel value="Hard Level" control={<Radio />} label="Hard Level" />
                         </RadioGroup>
                     </FormControl>
 
                     <Grid >
 
-                        <Button variant="contained" color="secondary" onClick={handleDrop} >Сбросить</Button>
+                        <Button variant="contained" color="secondary" onClick={handleDrop}>Reset</Button>
                     </Grid>
                 </Paper>
             </Grid>

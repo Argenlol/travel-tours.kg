@@ -12,8 +12,7 @@ import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import MenuIcon from '@material-ui/icons/Menu';
 import { Link } from 'react-router-dom';
-import { API } from '../helpers/constants';
-import { IconButton } from '@material-ui/core';
+
 
 const useStyles = makeStyles({
     list: {
@@ -48,19 +47,18 @@ export default function BurgerMenu() {
             })}
             role="presentation"
             onClick={toggleDrawer(anchor, false)}
-            onKeyDown={toggleDrawer(anchor, false)}
-        >
-            <List>
-                {/* {['Туры', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-                    <ListItem button key={text}>
-                        <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
-                        <Link><ListItemText primary={text} /></Link>
-                    </ListItem>
-                ))}, */}
-                {['Туры'].map((text, index) => (
+            onKeyDown={toggleDrawer(anchor, false)}>
+            <List style={{ background:"gray"}}>
+                {['Tours'].map((text, index) => (
                     <ListItem button key={text}>
                         <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
                         <Link to='/list'><ListItemText primary={text} /></Link>
+                    </ListItem>
+                ))}
+                {['About us'].map((text, index) => (
+                    <ListItem button key={text}>
+                        <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
+                        <Link to='/about'><ListItemText primary={text} /></Link>
                     </ListItem>
                 ))}
                 {['Cart'].map((text, index) => (
@@ -70,15 +68,7 @@ export default function BurgerMenu() {
                     </ListItem>
                 ))}
             </List>
-            <Divider />
-            {/* <List>
-                {['All mail', 'Trash', 'Spam'].map((text, index) => (
-                    <ListItem button key={text}>
-                        <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
-                        <ListItemText primary={text} />
-                    </ListItem>
-                ))}
-            </List> */}
+            <Divider /> 
         </div>
     );
 
@@ -86,13 +76,10 @@ export default function BurgerMenu() {
         <div>
             {['left'].map((anchor) => (
                 <React.Fragment key={anchor}>
-
                     <MenuIcon onClick={toggleDrawer(anchor, true)}>{anchor}</MenuIcon>
                     <Drawer anchor={anchor} open={state[anchor]} onClose={toggleDrawer(anchor, false)}>
                         {list(anchor)}
                     </Drawer>
-
-
                 </React.Fragment>
             ))}
         </div>

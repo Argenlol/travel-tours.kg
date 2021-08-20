@@ -63,7 +63,7 @@ export default function Registration() {
                         <LockOutlinedIcon />
                     </Avatar>
                     <Typography component="h1" variant="h5">
-                        Регистрация
+                        Registration
                     </Typography>
                     <form onSubmit={(e) => registerUser(e, history)} className={classes.form} noValidate>
                         <TextField
@@ -72,7 +72,7 @@ export default function Registration() {
                             required
                             fullWidth
                             id="email"
-                            label="Введите почту"
+                            label="Enter mail"
                             name="email"
                             autoComplete="email"
                             autoFocus
@@ -83,7 +83,7 @@ export default function Registration() {
                             required
                             fullWidth
                             name="password"
-                            label="Введите пароль"
+                            label="Enter password"
                             type="password"
                             id="password"
                             autoComplete="current-password"
@@ -96,7 +96,7 @@ export default function Registration() {
                             color="grey"
                             className={classes.submit}
                         >
-                            Регистрироваться
+                            Register
                         </Button>
                         <Grid container>
                         </Grid>

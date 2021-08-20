@@ -13,29 +13,39 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const tutorialSteps = [
     {
-        label: 'Иссык-Куль',
+        label: 'Kol-Tor',
         imgPath:
-            'http://fotorelax.ru/wp-content/uploads/2016/06/A-beautiful-video-about-the-lake-Issyk-Kul.jpg',
+            'https://triptokyrgyzstan.com/sites/default/files/media/image/kol-tor_lake_c_ahmet_dogan.jpg',
     },
     {
-        label: 'Кол-тор',
-        imgPath:
-            'https://sputnik.kg/images/07e4/08/1c/1049451380.jpg',
-    },
-    {
-        label: 'Сары-Челек',
+        label: 'Sary-Chelek',
         imgPath:
             'https://sputnik.kg/images/104502/71/1045027149.jpg',
     },
     {
-        label: 'Водопад Барскоон',
+        label: 'Barskoon Waterfall',
         imgPath:
-            'https://i1.photo.2gis.com/images/geo/112/27443810247972577_109f.jpg',
+            'https://too.kg/en/wp-content/uploads/Barskoon-2-1024x639.jpg',
     },
     {
-        label: 'природный парк Ала-Арча',
+        label: 'Ala-Archa Park',
         imgPath:
             'https://sputnik.kg/images/102749/82/1027498253.jpg',
+    },
+    {
+        label: 'Kel-Suu',
+        imgPath:
+            'https://sputnik.kg/images/07e4/08/1c/1049451212.jpg',
+    },
+    {
+        label: 'Racek Hut',
+        imgPath:
+            'https://1.bp.blogspot.com/-eP25uNsknXo/Vw92CX9jPwI/AAAAAAAAAD8/QAv6aQ7ZpIIdEM71KXKmerr6qpvIaEgZQCLcB/s1600/SAM_3739.JPG',
+    },
+    {
+        label: 'Komsomolets Peak',
+        imgPath:
+            'https://sputnik.kg/images/104306/28/1043062899.jpg',
     },
 ];
 
@@ -50,7 +60,7 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         alignItems: 'center',
         height: 50,
-        paddingLeft: theme.spacing(4),
+        paddingLeft: theme.spacing(3),
         backgroundColor: theme.palette.background.default,
         color: 'white',
         textAlign: 'center'

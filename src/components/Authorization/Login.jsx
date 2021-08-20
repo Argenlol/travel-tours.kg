@@ -51,7 +51,7 @@ export default function Login() {
                     <LockOutlinedIcon />
                 </Avatar>
                 <Typography component="h1" variant="h5">
-                    Войти
+                    Sign In
                 </Typography>
                 <form onSubmit={(e) => loginUser(e, history)} className={classes.form} noValidate>
                     <TextField
@@ -60,7 +60,7 @@ export default function Login() {
                         required
                         fullWidth
                         id="email"
-                        label="Введите почту"
+                        label="Enter email"
                         name="email"
                         autoComplete="email"
                         autoFocus
@@ -71,7 +71,7 @@ export default function Login() {
                         required
                         fullWidth
                         name="password"
-                        label="Введите пароль"
+                        label="Enter password"
                         type="password"
                         id="password"
                         autoComplete="current-password"
@@ -85,13 +85,13 @@ export default function Login() {
                             color="grey"
                             className={classes.submit}
                         >
-                            Войти
+                            Sign Up
                         </Button></Link>
 
                     <Grid container>
                         <Grid item xs>
                             <Link href="#" variant="body2">
-                                Забыли пароль?
+                                Forgot your password ?
                             </Link>
                         </Grid>
 

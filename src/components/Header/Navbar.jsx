@@ -8,7 +8,6 @@ import InputBase from '@material-ui/core/InputBase';
 import Badge from '@material-ui/core/Badge';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
-import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import MailIcon from '@material-ui/icons/Mail';
@@ -20,8 +19,9 @@ import { useContext } from 'react';
 import { TourContext } from '../Contexts/TourContext';
 import BurgerMenu from './BurgerMenu';
 import { Link } from 'react-router-dom';
-import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import { Grid } from '@material-ui/core';
+import LocalAirportIcon from '@material-ui/icons/LocalAirport';
+import { Nav } from 'react-bootstrap';
 
 const useStyles = makeStyles((theme) => ({
     grow: {
@@ -152,16 +152,15 @@ export default function Navbar() {
             onClose={handleMenuClose}
         >
             <Link to="/login">
-
                 <MenuItem
                     onClick={handleMenuClose}
-                >Войти</MenuItem>
+                >Sign In</MenuItem>
 
             </Link>
 
             <Link to="/registration">
                 <MenuItem
-                    onClick={handleMenuClose}>Зарегистрироваться
+                    onClick={handleMenuClose}>Sign Up
                 </MenuItem>
             </Link>
         </Menu>
@@ -176,8 +175,7 @@ export default function Navbar() {
             keepMounted
             transformOrigin={{ vertical: 'top', horizontal: 'right' }}
             open={isMobileMenuOpen}
-            onClose={handleMobileMenuClose}
-        >
+            onClose={handleMobileMenuClose}>
             <MenuItem>
                 <IconButton aria-label="show 4 new mails" color="inherit">
                     <Badge badgeContent={4} color="secondary">
@@ -231,7 +229,7 @@ export default function Navbar() {
                             textDecoration: 'none'
                         }}>
                             <Typography className={classes.title} variant="h6" noWrap>
-                                All-Tours.kg
+                                Traveling In Kyrgyzstan
                             </Typography>
                         </Link>
 
@@ -250,27 +248,19 @@ export default function Navbar() {
                                 onChange={handleValue}
                             />
                         </div>
-                        <Link to="/cart" style={{ color: "white" }}>
-                            <IconButton>
-                                <Badge badgeContent={cartLength} color="secondary">
-                                    <ShoppingCartIcon style={{ color: "white" }} />
-
-                                </Badge>
-                            </IconButton>
-
-                        </Link>
+                        <Nav className='mr-auto'>
+                            <Nav.Link><Link to='/about' style={{ color: "white"}}>ABOUT US</Link></Nav.Link>
+                        </Nav>
+                 
                         <div className={classes.grow} />
                         <div className={classes.sectionDesktop}>
-                            <IconButton aria-label="show 4 new mails" color="inherit">
-                                <Badge badgeContent={0} color="secondary">
-                                    <MailIcon />
+            
+                            <IconButton>
+                                <Badge badgeContent={cartLength} color="secondary">
+                                    <LocalAirportIcon style={{ color: "white" }} />
                                 </Badge>
                             </IconButton>
-                            <IconButton aria-label="show 17 new notifications" color="inherit">
-                                <Badge badgeContent={0} color="secondary">
-                                    <NotificationsIcon />
-                                </Badge>
-                            </IconButton>
+                           
                             <IconButton
                                 edge="end"
                                 aria-label="account of current user"

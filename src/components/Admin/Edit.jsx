@@ -56,7 +56,7 @@ const Edit = () => {
     console.log(values, "    values")
     return (
         <Paper elevation={3} className={classes.paper}>
-            <Typography variant='h2' style={{ textAlign: 'center' }}>Измени тур</Typography>
+            <Typography variant='h2' style={{ textAlign: 'center' }}>Change Tour</Typography>
             {
                 values ? (
                     <div style={{ display: 'flex', justifyContent: 'space-between', color: 'black' }}>
@@ -83,7 +83,7 @@ const Edit = () => {
 
                             </form>
                             <IconButton onClick={handleSave}>
-                                <Button variant="contained">Сохранить</Button>
+                                <Button variant="contained">Save</Button>
                             </IconButton>
 
                         </div>

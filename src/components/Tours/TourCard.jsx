@@ -5,19 +5,11 @@ import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
-import CardActions from '@material-ui/core/CardActions';
-import Collapse from '@material-ui/core/Collapse';
-import Avatar from '@material-ui/core/Avatar';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import ShareIcon from '@material-ui/icons/Share';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
 import { useContext } from 'react';
 import { TourContext } from '../Contexts/TourContext';
-import Edit from '../Admin/Edit';
 import { Button } from '@material-ui/core';
 import { Link, useHistory } from 'react-router-dom';
 import DeleteIcon from '@material-ui/icons/Delete';
@@ -34,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
     },
     media: {
         height: 0,
-        paddingTop: '56.25%', // 16:9
+        paddingTop: '56.25%',
         width: '400px',
 
 
@@ -58,15 +50,10 @@ export default function TourCard({ item }) {
     const classes = useStyles();
     const { email } = useContext(authContext)
 
-    const admin = 'abdybekovn@gmail.com'
+    const admin = 'shabdanov@gmail.com'
 
     const { getTours, deleteTour, addTourInCart, checkTourInCart } = useContext(TourContext)
     const [isAdmin, setIsAdmin] = useState(false)
-    // const [expanded, setExpanded] = React.useState(false);
-
-    // const handleExpandClick = () => {
-    //     setExpanded(!expanded);
-    // };
 
     let history = useHistory()
 
@@ -106,9 +93,7 @@ export default function TourCard({ item }) {
             <CardContent>
                 <IconButton
                     aria-label='share'
-                    onClick={() => addTourInCart(item)}
-                    color={checkTourInCart(item.id) ? "secondary" : "inherit"}
-                >
+                    onClick={() => addTourInCart(item)}>
                     <ShoppingCartIcon />
                 </IconButton>
                 {
@@ -116,14 +101,12 @@ export default function TourCard({ item }) {
 
                         <Link to={`/edit/${item.id}`}>
                             <IconButton>
-                                <Button>Изменить</Button>
+                                <Button>Change</Button>
                             </IconButton>
                         </Link>
                         <IconButton onClick={() => deleteTour(item.id, history)}>
                             <DeleteIcon />
                         </IconButton>
-
-
                     </>
 
                     ) : (null)

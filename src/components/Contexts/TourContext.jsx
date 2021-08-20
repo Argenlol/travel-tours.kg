@@ -168,7 +168,6 @@ const TourContextProvider = ({ children }) => {
     }
     const buy = (history) => {
         localStorage.clear()
-        // history.push('/card')
     }
     const checkTourInCart = (id) => {
         let cart = JSON.parse(localStorage.getItem('cart'))
@@ -189,9 +188,6 @@ const TourContextProvider = ({ children }) => {
             payload: data
         })
     }
-
-
-
 
 
     return (

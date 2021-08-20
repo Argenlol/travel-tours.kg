@@ -8,9 +8,9 @@ import Video1 from '../video/video1.webm'
 import { makeStyles } from '@material-ui/styles';
 import TourCard from '../Tours/TourCard';
 import ToursList from '../Tours/ToursList';
-
 import Footer from './Footer';
 import { Grid } from '@material-ui/core';
+
 
 
 const useStyles = makeStyles((theme) => ({
@@ -50,13 +50,12 @@ const useStyles = makeStyles((theme) => ({
         textTransform: 'uppercase',
         marginTop: "-55px",
         marginLeft: '-270px'
-
     },
     BodyfullScreenTitle: {
         fontSize: '50px',
         letterSpacing: '17px',
         fontWeight: 700,
-        margin: '0px, 0ps, 20px, 0px',
+        margin: '0px, 0px, 20px, 0px',
         color: 'white'
     },
     fullScreenText: {
@@ -113,19 +112,18 @@ const useStyles = makeStyles((theme) => ({
 
     },
     topContent: {
-        // paddingBottom: '80px',
+        marginTop: "20px",
+        borderRadius:100,
         display: 'flex',
-        width: '60px',
-        height: '60px',
-        backgroundSize: '60px 60px',
-        backgroundImage: 'url(https://triptokyrgyzstan.com/themes/custom/tripping/images/kyrgyzstan_flag_tunduk.svg)',
+        width: '80px',
+        height: '80px',
+        backgroundSize: 'cover',
+        backgroundImage: "url(https://cdn21.img.ria.ru/images/156391/10/1563911070_414:0:2462:2048_1920x0_80_0_0_17fb70b937e976b5eb98813b1c7175f7.jpg)",
         // justifyContent: 'center',
         // left: 0,
         // right: 0,
         // position: 'absolute',
     }
-
-
 }))
 
 
@@ -139,20 +137,18 @@ export default function Body() {
             <Container maxWidth='md' >
                 <div className={classes.fullScreen}>
                     <div className={classes.fullScreenContent}>
-                        <div className={classes.BodyfullScreenTitle} >кыргызстан</div>
-                        <div className={classes.fullScreenText}>Добро пожаловать</div>
+                        <div className={classes.BodyfullScreenTitle}>ADVANTURE</div>
+                        <div className={classes.fullScreenText}>WELCOME</div>
                     </div>
                 </div>
 
                 <video className={classes.fullScreenVideo} autoPlay loop muted
-                //     style={{
-                //         width: '100vw',
-                //         height: 800,
-                //         marginTop: '-220px',
-
-                //         marginLeft: '-109px'
-
-                //     }}
+                    style={{
+                        width: '110vw',
+                        backgroundSize: "cover",
+                        height: 800,
+                        marginLeft: '-90px'
+                    }}
                 >
                     <source src={Video2} type="video/mp4" />
                     <source src={Video1} type="video/webm" />
@@ -161,17 +157,9 @@ export default function Body() {
                 <div className={classes.aboutContent}>
                     <div className={classes.topContent}></div>
                     <div className={classes.leftContent}>
-
-                        Добро пожаловать в Кыргызстан, страну величественных горных ландшафтов и живописных долин, <br /> кристально чистых озер и мощных горных рек, белоснежных ледников и изумрудно-зеленых лугов, <br /> которая находится в самом сердце Центральной Азии. Это уникальное место, где природа <br /> сохранилась в своем первозданном виде, и люди пережили эпоху своей культуры и самобытности. <br /> Кыргызстан - рай для путешественников, которые хотят открыть для себя новые горизонты, <br /> познакомиться с миром природы и с необычной культурой страны. Кыргызский народ с древних <br /> времен были известны своим теплом и гостеприимством. Мы приглашаем вас посетить Кыргызстан, <br /> и он не оставит вас равнодушными!
-                    </div>
-
-                    {/* <div className={classes.leftContent}>
-                    <div className={classes.titleAbout}>О нас</div>
-                    <div className={classes.textAbout}>Мы занимаемся походами по Кыргызстану <br /> С нами вы проведете свое время с комфортом <br /> Организовываем туры уже более 10 лет<br /> delectus cum necessitatibus ipsam repudiandae? Atque, fuga.</div>
-                </div> */}
+                        Welcome to Kyrgyzstan, a country of majestic mountain landscapes and picturesque valleys, <br /> crystal clear lakes and powerful mountain rivers, snow-white glaciers and emerald green meadows, <br /> which is located in the very heart of Central Asia. This is a unique place where nature has been preserved in its original form, and people have lived through the era of their culture and identity. <br /> Kyrgyzstan is a paradise for travelers who want to discover new horizons, <br /> get acquainted with the natural world and with the unusual culture of the country. Since ancient times, the Kyrgyz people have been known for their warmth and hospitality.<br /> <br />  We invite you to visit Kyrgyzstan,and it will not leave you indifferent ! </div>
                     <div className={classes.rightContent}>
                         <Carusel maxWidth="md" className={classes.content} />
-
                     </div>
                 </div>
 
@@ -180,9 +168,9 @@ export default function Body() {
                 }}>
                     <h2 style={{
                         color: 'white',
-
+                        textAlign:"center"
                     }}>
-                        Наши туры
+                        Our Tours
                     </h2>
                     <div className={classes.contentOfBody}>
                         <ToursList />
