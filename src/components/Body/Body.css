@@ -1,0 +1,108 @@
+ /* .fullScreen {
+        position: relative;
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .fullScreenVideo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-top: -220px;
+    }
+
+    .fullScreenContent {
+        padding: 50px, 15px;
+        background-color: rgba(52, 52, 52, 0.4);
+
+        width: 1450px;
+        height: 603px;
+
+
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex: 1, 1, auto;
+        justify-content: center;
+        align-items: center ;
+        flex-direction: column;
+        text-transform: uppercase;
+        margin-top: -55px;
+        margin-left: -270px;
+        
+    }
+    
+    .BodyfullScreenTitle {
+        font-size: 50px;
+        letter-spacing: 17px;
+        font-weight: 700;
+        margin: 0px, 0px, 20px, 0px;
+        color: white;
+    }
+    .fullScreenText {
+        fontSize: '18px',
+        letterSpacing: '15px',
+        color: 'white'
+    }
+    .content {
+        backgroundColor: 'brown',
+        margin: 0
+    },
+
+
+
+    .aboutContent {
+        display: 'flex',
+        // alignItems: 'space-between',
+        flexDirection: 'column',
+        alignItems: 'center',
+
+        // position: 'relative',
+        // display: 'flex',
+        // justifyContent: 'space-between'
+    },
+    .rightContent {
+        // marginTop: '-180px',
+        // marginLeft: '180px',
+        // marginRight: '-100px'
+
+    },
+    .textAbout{
+        color: 'white',
+        fontSize: '20px',
+        fontWeight: 700
+    },
+    .titleAbout {
+        color: 'white',
+        fontSize: '23px',
+        marginBottom: '25px',
+        width: '400px',
+        paddingBottom: '30px',
+        fontWeight: 700
+    },
+    .leftContent {
+        // marginTop: '-110px',
+        width: '70vw',
+        // marginRight: '100px',
+        color: 'white',
+        fontSize: '20px',
+        textAlign: 'center',
+        paddingBottom: '30px',
+        lineHeight: 1.5,
+        margin-top: '50px'
+
+    }
+    .topContent {
+        margin-top: 20px;
+        border-radius:100;
+        display:flex;
+        width: 80px;
+        height: 80px;
+        background-size: cover;
+        background-image: "url(https://cdn21.img.ria.ru/images/156391/10/1563911070_414:0:2462:2048_1920x0_80_0_0_17fb70b937e976b5eb98813b1c7175f7.jpg)",
+    } */

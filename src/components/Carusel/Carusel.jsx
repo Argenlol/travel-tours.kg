@@ -97,16 +97,13 @@ function Carusel() {
             className={classes.root}
             style={{
                 marginTop: "-20px",
-
-
             }}
         >
-            <Paper style={{
+            <Paper className="footer" style={{
                 background: 'transparent',
-                backgroundColor: 'rgba(52, 52, 52, 0.3)',
-
-
-            }} square elevation={0} className={classes.header}>
+                backgroundColor: 'rgba(52, 52, 52, 0.3)'
+            }} 
+            square elevation={0} className={classes.header}>
                 <Typography>{tutorialSteps[activeStep].label}</Typography>
             </Paper>
             <AutoPlaySwipeableViews

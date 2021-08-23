@@ -28,8 +28,6 @@ const useStyles = makeStyles((theme) => ({
         height: 0,
         paddingTop: '56.25%',
         width: '400px',
-
-
     },
     expand: {
         transform: 'rotate(0deg)',
@@ -113,9 +111,6 @@ export default function TourCard({ item }) {
                 }
 
             </CardContent>
-
-
-
         </Card >
     );
 }

@@ -5,8 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1310px;
-    margin-left:-200px ;
+    width: 100%;
 }
 
 .footer-subscription{
@@ -49,7 +48,7 @@
     width: 100%;
     max-width: 1000px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .footer-link-wrapper{
@@ -127,10 +126,14 @@
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 20px;
     display: flex;
     align-self: center;
     margin-bottom: 16px;
+}
+
+.text{
+    margin-bottom: 15px;
 }
 
 .website-rights{
@@ -138,7 +141,11 @@
     margin-bottom: 16px;
 }
 
-@media all and (max-width:820px){
+.btn{
+    font-size: 24px;
+}
+
+@media screen and (max-width:830px){
     .footer-links{
         padding-top: 2rem;
     }

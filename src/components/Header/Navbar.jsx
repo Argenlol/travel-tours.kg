@@ -22,6 +22,7 @@ import { Link } from 'react-router-dom';
 import { Grid } from '@material-ui/core';
 import LocalAirportIcon from '@material-ui/icons/LocalAirport';
 import { Nav } from 'react-bootstrap';
+import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
 
 const useStyles = makeStyles((theme) => ({
     grow: {
@@ -258,6 +259,12 @@ export default function Navbar() {
                             <IconButton>
                                 <Badge badgeContent={cartLength} color="secondary">
                                     <LocalAirportIcon style={{ color: "white" }} />
+                                </Badge>
+                            </IconButton>
+                            
+                            <IconButton>
+                                <Badge color="secondary">
+                                    <a href="tel:+996 505 455 744"><PhoneIphoneIcon style={{ color: "white" }} /></a>
                                 </Badge>
                             </IconButton>
                            

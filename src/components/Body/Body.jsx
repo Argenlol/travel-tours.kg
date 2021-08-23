@@ -50,7 +50,9 @@ const useStyles = makeStyles((theme) => ({
         textTransform: 'uppercase',
         marginTop: "-55px",
         marginLeft: '-270px'
+        
     },
+    
     BodyfullScreenTitle: {
         fontSize: '50px',
         letterSpacing: '17px',
@@ -133,11 +135,12 @@ export default function Body() {
     const classes = useStyles()
 
     return (
+        <>
         <Grid>
             <Container maxWidth='md' >
                 <div className={classes.fullScreen}>
                     <div className={classes.fullScreenContent}>
-                        <div className={classes.BodyfullScreenTitle}>ADVANTURE</div>
+                        <div className={classes.BodyfullScreenTitle}>ADVENTURE</div>
                         <div className={classes.fullScreenText}>WELCOME</div>
                     </div>
                 </div>
@@ -178,14 +181,14 @@ export default function Body() {
 
                     </div>
                 </Container>
-                <Footer />
 
             </Container >
 
         </Grid>
 
+            <Footer />
 
-
+    </>
 
 
     );

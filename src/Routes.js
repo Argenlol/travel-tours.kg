@@ -14,6 +14,7 @@ import AuthContextProvider from './components/Contexts/AuthContextProvider';
 import TourDetail from './components/Tours/TourDetail';
 import Card from './components/CreditCard/Card'
 import TourList2 from './components/TourList2/TourList2';
+import AboutUs from './components/Header/AboutUs';
 
 
 
@@ -40,6 +41,7 @@ const Routes = () => {
                         <Route exact path='/card' component={Card} />
 
                         <Route exact path='/detail/:id' component={TourDetail} />
+                        <AboutUs />
                     </Switch>
                 </BrowserRouter>
             </TourContextProvider>

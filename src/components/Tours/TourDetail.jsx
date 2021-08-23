@@ -37,14 +37,13 @@ const TourDetail = () => {
                             display: 'flex',
                             flexDirection: 'column',
                             alignItems: 'flex-start',
-                            justifyContent: 'center'
+                            justifyContent: 'center',
+                            
                         }}>
                             <Typography variant='h3' gutterBottom>{detail.title}</Typography>
                             <Typography variant='subtitle1' gutterBottom>{detail.type}</Typography>
                             <Typography variant='body1' gutterBottom>{detail.description}</Typography>
                             <Typography variant='h4' gutterBottom>{detail.price} som </Typography>
-
-
                         </div>
                     </div>
 
