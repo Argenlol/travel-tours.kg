@@ -16,7 +16,6 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import { calcTotalPrice } from '../helpers/CartFuction'
 import { TourContext } from '../Contexts/TourContext';
 import { Link, useHistory } from 'react-router-dom';
-import Card from '../CreditCard/Card';
 
 const useStyles = makeStyles({
     table: {
@@ -68,8 +67,10 @@ const Cart = ({ item }) => {
                                     <IconButton onClick={() => deleteCart(elem.item.id, history)}>
                                         <DeleteIcon />
                                     </IconButton>
+                                    
                                 </TableRow>
                             ))}
+                           
                         </>
                     ) : (<h1>Loading...</h1>)}
 

@@ -53,7 +53,7 @@ const Edit = () => {
         history.push('/list')
         saveEditTour(values)
     }
-    console.log(values, "    values")
+    console.log(values, "values")
     return (
         <Paper elevation={3} className={classes.paper}>
             <Typography variant='h2' style={{ textAlign: 'center' }}>Change Tour</Typography>
@@ -77,14 +77,13 @@ const Edit = () => {
                                 <TextField name='price' onChange={handleEditInp} value={values.price} variant="outlined"></TextField>
                                 <TextField name='description' onChange={handleEditInp}
                                     value={values.description}
-
-
                                 ></TextField>
 
                             </form>
                             <IconButton onClick={handleSave}>
                                 <Button variant="contained">Save</Button>
                             </IconButton>
+                          
 
                         </div>
                     </div>

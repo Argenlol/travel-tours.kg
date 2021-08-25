@@ -58,6 +58,7 @@ const AuthContextProvider = ({ children }) => {
             const res = await axios.post(`${AUTH_API}/login`, loginUser)
             localStorage.setItem('user', loginUser.email)
             console.log(res);
+            localStorage.setItem('email', loginUser.email)
             alert(res.status)
             history.push('/')
         } catch (e) {

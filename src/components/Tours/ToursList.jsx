@@ -7,17 +7,20 @@ import TourCard from './TourCard';
 
 import { Pagination } from '@material-ui/lab';
 import { getPage } from '../helpers/function';
+import CommentList from '../comments/CommentsLists';
+import Comments from '../comments/Commentss';
+import AuthContextProvider, { authContext } from '../Contexts/AuthContextProvider';
 
 
 const useStyles = makeStyles((theme) => ({
     pag: {
         color: 'white',
-
     }
 }))
 const ToursList = () => {
     const classes = useStyles()
     const history = useHistory()
+    const { email } = useContext(authContext)
     const { tours, getTours, paginatedPages } = useContext(TourContext)
     const [page, setPage] = useState(getPage())
     console.log(tours);
@@ -71,7 +74,10 @@ const ToursList = () => {
                     page={+page}
                 />
             </div>
-
+            
+            <CommentList />
+            <Comments name={email} />
+                
         </>
     );
 };

@@ -16,6 +16,9 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import { authContext } from '../Contexts/AuthContextProvider';
 import { useState } from 'react';
+import FavoriteIcon from '@material-ui/icons/Favorite';
+
+
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -94,9 +97,16 @@ export default function TourCard({ item }) {
                     onClick={() => addTourInCart(item)}>
                     <ShoppingCartIcon />
                 </IconButton>
+                <IconButton 
+                    aria-label='share'
+                    onClick={() =>  (item)}
+                    style={{color:"secondary"}}
+                    >
+                    <FavoriteIcon />
+                </IconButton>
                 {
-                    isAdmin ? (<>
-
+                    isAdmin ? (
+                    <>
                         <Link to={`/edit/${item.id}`}>
                             <IconButton>
                                 <Button>Change</Button>
@@ -106,11 +116,11 @@ export default function TourCard({ item }) {
                             <DeleteIcon />
                         </IconButton>
                     </>
-
                     ) : (null)
                 }
 
             </CardContent>
+            
         </Card >
     );
 }

@@ -61,9 +61,11 @@ const useStyles = makeStyles((theme) => ({
         color: 'white'
     },
     fullScreenText: {
-        fontSize: '18px',
-        letterSpacing: '15px',
-        color: 'white'
+        fontSize: '20px',
+        marginTop:'19px',
+        letterSpacing: '10px',
+        color: 'white',
+        
     },
     content: {
         backgroundColor: 'brown',
@@ -141,7 +143,7 @@ export default function Body() {
                 <div className={classes.fullScreen}>
                     <div className={classes.fullScreenContent}>
                         <div className={classes.BodyfullScreenTitle}>ADVENTURE</div>
-                        <div className={classes.fullScreenText}>WELCOME</div>
+                        <div className={classes.fullScreenText}>A little step may be the beginning of a great journey</div>
                     </div>
                 </div>
 

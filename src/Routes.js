@@ -15,6 +15,7 @@ import TourDetail from './components/Tours/TourDetail';
 import Card from './components/CreditCard/Card'
 import TourList2 from './components/TourList2/TourList2';
 import AboutUs from './components/Header/AboutUs';
+import CommentsProvider, { commentContext } from './components/comments/CommentContexts';
 
 
 
@@ -25,6 +26,7 @@ const Routes = () => {
 
         <AuthContextProvider>
             <TourContextProvider>
+                <CommentsProvider>
                 <BrowserRouter>
                     <Navbar />
                     {/* <Body ></Body> */}
@@ -44,6 +46,7 @@ const Routes = () => {
                         <AboutUs />
                     </Switch>
                 </BrowserRouter>
+                </CommentsProvider>
             </TourContextProvider>
 
         </AuthContextProvider>

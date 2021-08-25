@@ -12,6 +12,7 @@ import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import MenuIcon from '@material-ui/icons/Menu';
 import { Link } from 'react-router-dom';
+import Player from './Player'
 
 
 const useStyles = makeStyles({
@@ -48,7 +49,7 @@ export default function BurgerMenu() {
             role="presentation"
             onClick={toggleDrawer(anchor, false)}
             onKeyDown={toggleDrawer(anchor, false)}>
-            <List style={{ background:"gray"}}>
+            <List style={{ background: "gray" }}>
                 {['Tours'].map((text, index) => (
                     <ListItem button key={text}>
                         <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
@@ -68,7 +69,7 @@ export default function BurgerMenu() {
                     </ListItem>
                 ))}
             </List>
-            <Divider /> 
+            <Divider />
         </div>
     );
 
@@ -80,6 +81,7 @@ export default function BurgerMenu() {
                     <Drawer anchor={anchor} open={state[anchor]} onClose={toggleDrawer(anchor, false)}>
                         {list(anchor)}
                     </Drawer>
+                    {/* <Player /> */}
                 </React.Fragment>
             ))}
         </div>

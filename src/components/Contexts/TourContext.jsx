@@ -211,8 +211,6 @@ const TourContextProvider = ({ children }) => {
             deleteCart,
             getDetail,
             buy,
-
-
         }}>
             {children}
         </TourContext.Provider>

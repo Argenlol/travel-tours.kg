@@ -57,6 +57,7 @@ const TourDetail = () => {
             </Link>
         </Paper>
     );
+ 
 };
 
 export default TourDetail;

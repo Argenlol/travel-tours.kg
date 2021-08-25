@@ -25,14 +25,6 @@
       "id": 8
     },
     {
-      "title": "Lake Kol-Kogur",
-      "image": "https://triptokyrgyzstan.com/sites/default/files/media/image/c_elena_gromova.jpg",
-      "type": "Middle Level",
-      "price": "1100",
-      "description": "Lake Kel-Kogur is located in the Kemin district of the Chui region, among the picturesque mountains of Kyungei Ala-Too. It is possible to get to the lake only on foot or by horse, this gives the opportunity to lovers of horseback riding and hiking to enjoy the amazing landscapes of this area. Kol-Kogur is located at an altitude of 2000 meters above sea level. The landscapes around the lake are virgin and incredibly beautiful, there are dense coniferous forests, where various wild animals live, such as marals, Turkestan lynx, golden eagles and others.",
-      "id": 9
-    },
-    {
       "title": "Too-Ashuu Pass",
       "image": "https://triptokyrgyzstan.com/sites/default/files/media/image/c_victor_blagin.jpg",
       "type": "Easy Level",
@@ -120,5 +112,6 @@
       "description": "Ala-Archa (or Ak-Sai) is a mountaineering region in the Kyrgyz ridge, not far from Bishkek. The Ala-Archa river has several tributaries that flow from glacial circuses, but usually under Ala-Archa I mean the ridges surrounding one of them - Ak-Sai, where the highest, most complex and beautiful peaks are located. In the neighboring gorges there are also classified climbing routes, but they are visited much less often. Among them, one can note the Adygene valley (left tributary of the Ala-Archi), where there are about a dozen peaks with routes up to 3 grade. - a good area for beginners, but certainly not as beautiful as Ak-Sai.",
       "id": 20
     }
-  ]
+  ],
+  "comments": []
 }
