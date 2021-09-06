@@ -27,16 +27,16 @@ const useStyles = makeStyles((theme) => ({
         position: 'absolute',
         top: 0,
         left: 0,
-        width: '100%',
+        width: '100% ',
         height: '100%',
         objectFit: 'cover',
         marginTop: '-220px',
     },
+
     fullScreenContent: {
         padding: '50px, 15px',
-        backgroundColor: 'rgba(52, 52, 52, 0.4)',
 
-        width: '1450px',
+        width: '100%',
         height: '603px',
 
 
@@ -48,22 +48,22 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'center ',
         flexDirection: 'column',
         textTransform: 'uppercase',
-        marginTop: "-55px",
-        marginLeft: '-270px'
-        
+        marginTop: "-55px",        
     },
     
     BodyfullScreenTitle: {
-        fontSize: '50px',
+        alignItems: 'center',
+        fontSize: '35px',
         letterSpacing: '17px',
         fontWeight: 700,
-        margin: '0px, 0px, 20px, 0px',
-        color: 'white'
+        color: 'white',
     },
+
     fullScreenText: {
+        textAlign:'center',
         fontSize: '20px',
         marginTop:'19px',
-        letterSpacing: '10px',
+        letterSpacing: '5px',
         color: 'white',
         
     },
@@ -123,10 +123,6 @@ const useStyles = makeStyles((theme) => ({
         height: '80px',
         backgroundSize: 'cover',
         backgroundImage: "url(https://cdn21.img.ria.ru/images/156391/10/1563911070_414:0:2462:2048_1920x0_80_0_0_17fb70b937e976b5eb98813b1c7175f7.jpg)",
-        // justifyContent: 'center',
-        // left: 0,
-        // right: 0,
-        // position: 'absolute',
     }
 }))
 
@@ -149,10 +145,9 @@ export default function Body() {
 
                 <video className={classes.fullScreenVideo} autoPlay loop muted
                     style={{
-                        width: '110vw',
+                        width: '100%',
                         backgroundSize: "cover",
                         height: 800,
-                        marginLeft: '-90px'
                     }}
                 >
                     <source src={Video2} type="video/mp4" />

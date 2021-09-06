@@ -59,7 +59,6 @@ const useStyles = makeStyles((theme) => ({
         marginTop: 35,
         display: 'flex',
         alignItems: 'center',
-        height: 50,
         paddingLeft: theme.spacing(3),
         backgroundColor: theme.palette.background.default,
         color: 'white',
@@ -70,7 +69,7 @@ const useStyles = makeStyles((theme) => ({
         display: 'block',
         // maxWidth: '100vw',
         overflow: 'hidden',
-        width: '100vw',
+        width: '100%',
     },
 }));
 

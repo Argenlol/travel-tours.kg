@@ -23,6 +23,7 @@ const TourDetail = () => {
     useEffect(() => {
         getDetail(id)
     }, [id])
+    
     return (
         <Paper elevation={3} className={classes.paper}>
             <Typography variant='h2' style={{ textAlign: 'center' }}>TOUR</Typography>
