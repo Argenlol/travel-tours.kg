@@ -23,7 +23,7 @@
     "react-scripts": "4.0.3",
     "react-swipeable-views": "^0.14.0",
     "use-sound": "^4.0.1",
-    "web-vitals": "^1.1.2"±
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "node server.js",
