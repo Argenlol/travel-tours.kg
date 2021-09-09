@@ -27,7 +27,7 @@ const ToursList = () => {
     useEffect(() => {
         getTours(history)
     }, [])
-
+    console.log(tours)
     function getPage(e, page) {
         const search = new URLSearchParams(history.location.search)
         if (!search.get('_page')) {
@@ -74,10 +74,10 @@ const ToursList = () => {
                     page={+page}
                 />
             </div>
-            
+
             <CommentList />
             <Comments name={email} />
-                
+
         </>
     );
 };

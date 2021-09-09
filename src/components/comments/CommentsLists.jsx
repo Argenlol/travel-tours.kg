@@ -11,6 +11,7 @@ const CommentList = ({ item, history }) => {
     useEffect(() => {
         getComments()
     }, [])
+    console.log(comment)
 
     return (
         <div>
